@@ -12,13 +12,13 @@
 
 ## 使用方法
 
-**1.下载 start.py 和 requirement.txt。**
+**1.下载 'start.py' 和 'requirement.txt'。**
 
 **2.安装依赖。**
 
-**3.在运行目录下新建一个 files 文件夹并把你要拆分的 *.pxls.bytes 与 *.pxls.bytes.texture_0.png 纹理图文件 放进去。**
+**3.在运行目录下新建一个 files 文件夹并把你要拆分的 '*.pxls.bytes' 与 '*.pxls.bytes.texture_0.png' 纹理图文件 放进去。**
 
-**4.运行 start.py。**
+**4.运行 'start.py'。**
 
 ### LICENCE
 AGPL @Dax233
