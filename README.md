@@ -92,7 +92,7 @@ python reconstruct_pxl.py --file files/noel_blue.pxls.bytes
   （ASCII 头 `konnna_syarinn...` + `%IMGS_SECTION%` + `%POSE_SECTION%` + `%OPTS_SECTION%`），
   即已被 PixelLiner 当作可编辑工程。
 
-（截图含游戏素材，未收录进仓库。）
+（截图含游戏素材，未收录进仓库；复现步骤与详细结果见 [docs/validation.md](docs/validation.md)。）
 
 ### 测试
 
