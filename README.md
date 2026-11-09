@@ -133,6 +133,11 @@ AICPXLS_REAL_SAMPLE=/path/to/noel_blue.pxls.bytes \
 - [DreamRuthenium/PixelLinerTranslate](https://github.com/DreamRuthenium/PixelLinerTranslate)：
   提供了 PixelLiner 版本与本地化信息，方便定位可复现的 0.97.14 AIR 包。
 
-## LICENCE
+## LICENSE
 
-AGPL @Dax233
+MIT License，见 [LICENSE](LICENSE)。
+
+Copyright (c) 2024-2026 Dax233
+
+> 说明：本项目早期版本以 AGPL-3.0 发布（2024-06 ~ 2026-11），自 2026-11-09 起由作者改为 MIT。
+> 历史版本仍适用其发布时附带的 AGPL-3.0 许可。
