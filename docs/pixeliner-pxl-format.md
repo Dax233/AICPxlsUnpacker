@@ -637,5 +637,18 @@ write.u16(0)                                  # 空对象终止符
 
 ---
 
+
+> **实测更新（2026-11-09）**
+>
+> - 本仓库 `reconstruct_pxl.py` 走的 **X 格式（PXLS 容器）路线**已在 PixelLiner 0.97.14
+>   实机验证成功（加载、编辑、另存为 P 格式工程、再次打开均正常）。
+> - 本文档的 **P 格式（工程格式）** 部分是从反编译源码整理的参考规范；
+>   其配套最小样本 `minimal.pxl`（由 `minimal_pxl_reference.py` 生成）在 PixelLiner
+>   0.97.14 实机加载时报 `Error #2030: End of file was encountered`（能部分恢复出
+>   1 图层 / 1 图像，pose 列表可见），说明该最小样本仍有字段没覆盖完整。
+>   因此**不要把第 0 节的"OPTS/EXPT 可省略"当作已实机验证的结论**；若要写 P 格式，
+>   建议带上 `%OPTS_SECTION%` / `%EXPT_SECTION%`，并用 `minimal_pxl_reference.py` 的
+>   镜像解析器逐字段自查后再上机。
+
 > 本文件原为 issue #1 调查时产出的内部规范，收录进仓库供后续维护参考。
 > 参考实现脚本见 docs/minimal_pxl_reference.py（需要 Pillow）。
